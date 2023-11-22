@@ -40,7 +40,7 @@ const HeroSection = () => {
         </h1>
         <p 
         className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nemo quas necessitatibus deleniti asperiores repellendus.
+          Full stack developer in the IT world, merging creativity and tech one bug at a time.
         </p>
         {/* <div>
           <button className="px-6 py-3 w-full rounded-full sm:w-fit mr-4 bg-gradient-to-r from-pink-300 via-purple-500 to-blue-400 hover:bg-slate-200 text-white">Hire Me</button>
@@ -59,6 +59,7 @@ const HeroSection = () => {
             <Link
             href={"/public/image/vg.docx"}
             download
+            locale={false}
             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-pink-300 via-purple-500 to-blue-400 hover:bg-slate-800 text-white mt-3"
             >
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
