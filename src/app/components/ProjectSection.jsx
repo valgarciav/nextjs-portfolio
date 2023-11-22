@@ -90,7 +90,7 @@ const ProjectSection = () => {
       };
 
   return (
-    <section ref={ref}>
+    <section id="projects">
         <h2>
             My Projects
         </h2>
