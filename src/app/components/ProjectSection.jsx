@@ -60,15 +60,15 @@ const projectData = [
         gitUrl: "https://github.com/valgarciav/FSI-Creating-a-Choose-Your-Own-Adventure-Game",
         previewUrl: "https://main.d2hhm31zgqii90.amplifyapp.com/",
     },
-    {
-        id: 6,
-        title: "React Portfolio ",
-        description: "",
-        image: "/image/projects/react-profile.png",
-        tag: ["All", "React"],
-        gitUrl: "https://github.com/valgarciav/react-portfolio-website",
-        previewUrl: "https://master.d39x3ccala6w7r.amplifyapp.com/",
-    },
+    // {
+    //     id: 6,
+    //     title: "React Portfolio ",
+    //     description: "",
+    //     image: "/image/projects/react-profile.png",
+    //     tag: ["All", "React"],
+    //     gitUrl: "https://github.com/valgarciav/react-portfolio-website",
+    //     previewUrl: "https://master.d39x3ccala6w7r.amplifyapp.com/",
+    // },
 
 ];
 const ProjectSection = () => {
