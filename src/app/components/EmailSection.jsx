@@ -173,6 +173,13 @@ const EmailSection = () => {
                     className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full">
                         Send Message
                     </button>
+                    {
+                        emailSubmitted && (
+                            <p className="text-green-500 text-sm mt-2">
+                            Email Sent successfully!
+                            </p>
+                        )
+                    }
             </form> */}
         </div>
     </section>
