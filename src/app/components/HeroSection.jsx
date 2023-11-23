@@ -57,7 +57,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-            href={"/public/image/vg.docx"}
+            href={"portfolio-website/public/image/vg.docx"}
             download
             locale={false}
             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-yellow-300 via-purple-500 to-blue-400 hover:bg-slate-800 text-white mt-3"
