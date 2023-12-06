@@ -1,12 +1,12 @@
 // import React from "react";
-// import CV from "/public/image/vg.docx"
+// import CV from "/public/vg.docx"
 
 // const CTA = () => {
 //   return (
 //     <div className="cta">
 //       <a href={CV} download className="btn">
 //         {" "}
-//         Download CV
+//         
 //       </a>
 //     </div>
 //   );

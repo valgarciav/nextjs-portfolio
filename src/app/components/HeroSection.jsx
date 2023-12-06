@@ -2,8 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import Link from "next/link";
+// import CV from "/public/vg-resume.pdf"
 
 
 const HeroSection = () => {
@@ -57,9 +58,11 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-            href={"portfolio-website/public/image/vg.docx"}
-            download
-            locale={false}
+            href={"https://docs.google.com/document/d/1He0EqlmVe8aSGPcbK0kndil2inTYBXQjQK4LuDrt07Q/edit?usp=sharing"}
+            download="Valeria-Garcia-CV"
+            target="_blank"
+            rel="noreferrer"
+            // locale={false}
             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-yellow-300 via-purple-500 to-blue-400 hover:bg-slate-800 text-white mt-3"
             >
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
@@ -92,3 +95,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection; 
+
